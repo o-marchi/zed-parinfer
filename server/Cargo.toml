@@ -1,0 +1,13 @@
+[package]
+name = "parinfer-lsp"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/o-marchi/zed-parinfer"
+
+[dependencies]
+parinfer_rust = { git = "https://github.com/eraserhd/parinfer-rust.git", rev = "0d334950099cd30a8e1ca520026f8da9ea1382fa" }
+serde_json = "1"
+similar = "2"
+unicode-segmentation = "1"
+unicode-width = "0.1"

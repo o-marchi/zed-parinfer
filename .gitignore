@@ -1,0 +1,3 @@
+target/
+# Zed builds this itself.
+zed/extension.wasm

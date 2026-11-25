@@ -1,0 +1,15 @@
+# Starts parinfer-lsp, the language server in ../server, for every Lisp we
+# could find a Zed extension for. Zed starts it only for the languages named
+# here, each of which comes from its own extension.
+id = "parinfer-lsp"
+name = "Parinfer"
+version = "0.1.0"
+schema_version = 1
+authors = ["o-marchi"]
+description = "Parinfer for Lisps: indent, and the closing parens follow."
+repository = "https://github.com/o-marchi/zed-parinfer"
+
+[language_servers.parinfer]
+name = "Parinfer"
+languages = ["Clojure", "Common Lisp", "Elisp", "Fennel", "Guile", "Janet", "LispBM", "Racket",
+             "Scheme", "Vastra", "Yuck"]
